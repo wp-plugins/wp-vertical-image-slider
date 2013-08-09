@@ -795,7 +795,7 @@
       
              //add new
                 
-                $location='admin.php?page=thumbnail_slider_image_management';
+                $location='admin.php?page=vertical_thumbnail_slider_image_management';
                 $title=trim(addslashes($_POST['imagetitle']));
                 $imageurl=trim($_POST['imageurl']);
                 $createdOn=date('Y-m-d h:i:s');
@@ -1069,7 +1069,7 @@
   }  
   else if(strtolower($action)==strtolower('deleteselected')){
   
-           $location='admin.php?page=thumbnail_slider_image_management'; 
+           $location='admin.php?page=vertical_thumbnail_slider_image_management'; 
           if(isset($_POST) and isset($_POST['deleteselected']) and  ( $_POST['action']=='delete' or $_POST['action_upper']=='delete')){
           
                 if(sizeof($_POST['thumbnails']) >0){
