@@ -1,19 +1,25 @@
 === wordpress responsive thumbnail slider ===
 Contributors:nik00726
-Donate link:http://my-php-scripts.net/donate-wordpress_image_thumbnail.php
+Donate link: http://my-php-scripts.net/donate-wordpress_image_thumbnail.php
 Tags:wordpress responsive slideshow,responsive thumbnail gallery,wordpress responsive slider with thumbnails,wordpress gallery responsive,wordpress fluid slider,wordpress fluid thumbnails slider,wordpress responsive image slider
 Requires at least:3.0
 Tested up to:3.6
 Version:1.0
 Stable tag:trunk
-License:GPLv2 or later
-License URI:http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This is beautiful responsive image slider for wordPress blogs and sites.Admin can manages any number of images into the responsive slider.
+
 == Description ==
+
 
 This is beautiful responsive image slider for wordPress blogs and sites.Admin can manages any number of images into the responsive slider.
 Admin can add,edit and delete slider images.Before add slider to wordPress blog admin can preview a slider.Admin can set height,width of slider images.Admin can also set speed,Number Of visible images into slider,Circular slider.Admin can also set if want to slide images with up and down arrow or by automatic slider.
 
+
 **Find WordPress Responsive Image Slider Pro Plugin(Unlimited Slider+Much more) at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-responsive-thumbnail-slider-pro.html)**
+
 
 **Please rate this plugin if you find it useful**
 
@@ -60,11 +66,11 @@ to theme or pages/posts.
 9. Display slider image with caption.
 
 
-
 [Get Support](http://www.my-php-scripts.net/index.php/Default-form.html)
 
 
 == Installation ==
+
 
 This plugin is easy to install like other plug-ins of Wordpress as you need to just follow the below mentioned steps:
 
@@ -89,6 +95,7 @@ OR you can add this to your theme by adding this code echo do_shortcode('[print_
 
 == Screenshots ==
 
+
 1. Slider Setting
 2. Manage Images 
 3. Preview Slider
@@ -101,6 +108,7 @@ OR you can add this to your theme by adding this code echo do_shortcode('[print_
 
 == License ==
 
+
 This plugin is free for everyone! Since it's released under the GPL, you can use it free of charge on your personal or commercial blog. But you can make some donations if you realy find it useful.
 
 
@@ -112,6 +120,7 @@ This plugin is free for everyone! Since it's released under the GPL, you can use
 
 
 == Upgrade notice ==
+
 
 * Stable 1.0 first release
 
