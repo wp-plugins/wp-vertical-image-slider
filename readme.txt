@@ -1,7 +1,7 @@
 === wordpress vertical image slider plugin ===
 Contributors:nik00726
 Donate link:http://my-php-scripts.net/donate-wordpress_image_thumbnail.php
-Tags:wordpress vertical thumbnail slider,wordpress vertical slider,wordpress vertical thumbnail scroller,wp vertical thumbnail slider,wordpress vertical vertical image sliders,wordpress slider with thumbnails,wordpress banner slider,wordpress vertical image slider with thumbnails,
+Tags:wordpress vertical image slider,wordpress vertical slider,wordpress vertical thumbnail scroller,wp vertical image slider,wordpress vertical vertical image sliders,wordpress slider with thumbnails,wordpress banner slider,wordpress vertical image slider with images,
 Requires at least:3.0
 Tested up to:3.6
 Version:1.0
@@ -9,10 +9,12 @@ Stable tag:trunk
 License:GPLv2 or later
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
-This is beautiful vertical thumbnail slider for wordPress blogs and sites.Admin can manages any number of images into the vertical slider.
+This is beautiful vertical image slider for wordPress blogs and sites.Admin can manages any number of images into the vertical slider.
 Admin can add,edit and delete slider images.Before add slider to wordPress blog admin can preview a slider.Admin can set height,width of slider images.Admin can also set speed,Number Of visible images into slider,Circular slider.Admin can also set if want to slide images with up and down arrow or by automatic slider.
 
 **Find WordPress Vertical Image Slider Pro Plugin(Unlimited Slider+Much more) at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-vertical-image-slider-pro.html)**
+
+**Find WordPress horizontal Image Slider Pro Plugin(Unlimited Slider+Much more) at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-thumbnail-slider-pro-wordpress-featured-image-add-into-slider.html)**
 
 **Please rate this plugin if you find it useful**
 
@@ -68,11 +70,11 @@ This plugin is easy to install like other plug-ins of Wordpress as you need to j
 
 2. Activate the plugin from Dashboard / Plugins window.
 
-4. Now Plugin is Activated, Go to the Usage section to see how to use wordpress thumbnail slider.
+4. Now Plugin is Activated, Go to the Usage section to see how to use wordpress image slider.
 
 ### Usage ###
 
-1.Use of wordpress vertical  slider is easy after activating plugin go to Vertical Thumbnail Slider.
+1.Use of wordpress vertical  slider is easy after activating plugin go to Vertical Imaages Slider.
 
 2.You can manage images by Manage images menu.
 
