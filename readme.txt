@@ -9,17 +9,16 @@ Stable tag:trunk
 License:GPLv2 or later
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
+
 This is beautiful responsive image slider for wordPress blogs and sites.Admin can manages any number of images into the responsive slider.
 Admin can add,edit and delete slider images.Before add slider to wordPress blog admin can preview a slider.Admin can set height,width of slider images.Admin can also set speed,Number Of visible images into slider,Circular slider.Admin can also set if want to slide images with up and down arrow or by automatic slider.
 
 **Find WordPress Responsive Image Slider Pro Plugin(Unlimited Slider+Much more) at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-responsive-thumbnail-slider-pro.html)**
 
-
 **Please rate this plugin if you find it useful**
 
 
 **=Features=**
-
 
 1. Add any number of images to responsive slider.
 
