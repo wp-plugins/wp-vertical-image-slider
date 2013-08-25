@@ -174,6 +174,8 @@
                     update_option('vertical_thumbnail_slider_messages', array());     
               ?>      
 
+               <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-vertical-image-slider-pro.html">Update to vertical Thumbnail Slider Pro Version</a></h3></span>
+               
                     <h2>Slider Settings</h2>
             <br>
             <div id="poststuff">
@@ -434,7 +436,7 @@
         </div>  
      </div>      
 </div>
-<div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;width:30%;margin-top:200px"> 
+<div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;width:30%;"> 
                          
    <div class="postbox"> 
       <h3 class="hndle"><span></span>Recommended WordPress Themes</h3> 
@@ -550,6 +552,8 @@
 
        <div style="width: 100%;">  
         <div style="float:left;width:69%;" >
+         <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-vertical-image-slider-pro.html">Update to vertical Thumbnail Slider Pro Version</a></h3></span>
+        
         <div class="icon32 icon32-posts-post" id="icon-edit"><br></div>
         <h2>Images <a class="button add-new-h2" href="admin.php?page=vertical_thumbnail_slider_image_management&action=addedit">Add New</a> </h2>
         <br/>    
@@ -853,6 +857,7 @@
   ?>
      <div style="width: 100%;">  
         <div style="float:left;width:69%;" >
+             <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-vertical-image-slider-pro.html">Update to vertical Thumbnail Slider Pro Version</a></h3></span>
             <div class="wrap">
           <?php if(isset($_GET['id']) and $_GET['id']>0)
           { 
@@ -1019,7 +1024,30 @@
         </div>  
      </div>      
          </div>
-      
+        <div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;width:30%;"> 
+           <div class="postbox"> 
+              <h3 class="hndle"><span></span>Best Hosting for WordPress</h3> 
+              <div class="inside">
+                   <center><a href="http://www.siteground.com" onClick="this.href='http://www.siteground.com/wordpress-hosting.htm?afbannercode=2efd07dfb14877d963d9e75d5057b4a8'" ><img src="https://ua.siteground.com/img/banners/application/wordpress/250x250.gif" alt="Web Hosting" width="250" height="250" border="0"></a></center>
+
+                  <div style="margin:10px 5px">
+          
+                  </div>
+          </div></div>
+             <div class="postbox"> 
+              <h3 class="hndle"><span></span>Worried About SEO ?</h3> 
+              <div class="inside">
+                   <center><a target="_blank" href="http://www.shareasale.com/r.cfm?b=378609&u=675922&m=6133&urllink=&afftrack="><img src="http://www.shareasale.com/image/6133/iNeedHits_250x250_target.gif" alt="Drive 1,000's of Targeted Visitors to YOUR site with iNeedHits.com! Shop Now! " border="0"></a></center>
+
+                  <div style="margin:10px 5px">
+          
+                  </div>
+          </div></div>
+           
+
+           
+           
+           </div>
      
     <?php 
     } 
@@ -1236,7 +1264,7 @@
                                       <?php if($settings['linkimage']==true){ ?> 
                                         <a target="_blank" href="<?php if($row['custom_link']==""){echo '#';}else{echo $row['custom_link'];} ?>"><img src="<?php echo $outputimg; ?>" alt="<?php echo $row['title']; ?>" title="<?php echo $row['title']; ?>" style="width:<?php echo $settings['imagewidth']; ?>px;height:<?php echo $settings['imageheight']; ?>px"  /></a>
                                       <?php }else{ ?>
-                                            <img src="<?php echo $url;?>imagestoscroll/<?php echo $row['image_name']; ?>" alt="<?php echo $row['title']; ?>" title="<?php echo $row['title']; ?>" style="width:<?php echo $settings['imagewidth']; ?>px;height:<?php echo $settings['imageheight']; ?>px"  />
+                                            <img src="<?php echo $outputimg;?>" alt="<?php echo $row['title']; ?>" title="<?php echo $row['title']; ?>" style="width:<?php echo $settings['imagewidth']; ?>px;height:<?php echo $settings['imageheight']; ?>px"  />
                                       <?php } ?> 
                                      </li>
                                    <?php
@@ -1404,7 +1432,7 @@
                                       <?php if($settings['linkimage']==true){ ?> 
                                         <a target="_blank" href="<?php if($row['custom_link']==""){echo '#';}else{echo $row['custom_link'];} ?>"><img src="<?php echo $outputimg; ?>" alt="<?php echo $row['title']; ?>" title="<?php echo $row['title']; ?>" style="width:<?php echo $settings['imagewidth']; ?>px;height:<?php echo $settings['imageheight']; ?>px"  /></a>
                                       <?php }else{ ?>
-                                            <img src="<?php echo $url;?>imagestoscroll/<?php echo $row['image_name']; ?>" alt="<?php echo $row['title']; ?>" title="<?php echo $row['title']; ?>" style="width:<?php echo $settings['imagewidth']; ?>px;height:<?php echo $settings['imageheight']; ?>px"  />
+                                            <img src="<?php echo $outputimg;?>" alt="<?php echo $row['title']; ?>" title="<?php echo $row['title']; ?>" style="width:<?php echo $settings['imagewidth']; ?>px;height:<?php echo $settings['imageheight']; ?>px"  />
                                       <?php } ?> 
                                      </li>
                                    <?php
