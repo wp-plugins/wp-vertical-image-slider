@@ -3,7 +3,7 @@ Contributors:nik00726
 Donate link:http://my-php-scripts.net/donate-wordpress_image_thumbnail.php
 Tags:wordpress vertical image slider,wordpress vertical slider,wordpress vertical thumbnail scroller,wp vertical image slider,wordpress vertical vertical image sliders,wordpress slider with thumbnails,wordpress banner slider,wordpress vertical image slider with images,
 Requires at least:3.0
-Tested up to:3.6
+Tested up to:3.6.1
 Version:1.0
 Stable tag:trunk
 License:GPLv2 or later
