@@ -643,6 +643,7 @@
                 <th>Published On</th>
                 <th>Edit</th>
                 <th>Delete</th>
+               </tr> 
             </thead>
 
             <tbody id="the-list">
