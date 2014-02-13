@@ -1,10 +1,10 @@
 <?php
    /* 
     Plugin Name: WordPress vertical Thumbnail Slider
-    Plugin URI:http://www.my-php-scripts.net 
-    Author URI: http://www.postfreeadvertising.com
+    Plugin URI:http://www.i13websolution.com
+    Author URI:http://www.i13websolution.com
     Description: This is beautiful thumbnail image slider plugin for WordPress.Add any number of images from admin panel.
-    Author:Nikunj Gandhi 
+    Author:I Thirteen Web Solution 
     Version:1.0
     */
 
@@ -148,8 +148,8 @@
                <table><tr><td><a href="https://twitter.com/FreeAdsPost" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @FreeAdsPost</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td>
                 <td>
-                <a target="_blank" title="Donate" href="http://my-php-scripts.net/donate-wordpress_image_thumbnail.php">
-                <img id="help us for free plugin" height="30" width="90" src="http://www.postfreeadvertising.com/images/paypaldonate.jpg" border="0" alt="help us for free plugin" title="help us for free plugin">
+                <a target="_blank" title="Donate" href="http://www.i13websolution.com/donate-wordpress_image_thumbnail.php">
+                <img id="help us for free plugin" height="30" width="90" src="http://www.i13websolution.com/images/paypaldonate.jpg" border="0" alt="help us for free plugin" title="help us for free plugin">
                 </a>
                 </td>
                 </tr>
@@ -174,7 +174,7 @@
                     update_option('vertical_thumbnail_slider_messages', array());     
               ?>      
 
-               <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-vertical-image-slider-pro.html">UPGRADE TO PRO VERSION</a></h3></span>
+               <span><h3 style="color: blue;"><a target="_blank" href="http://www.i13websolution.com/wordpress-pro-plugins/wordpress-vertical-image-slider-pro-plugin.html">UPGRADE TO PRO VERSION</a></h3></span>
                
             <h2>Slider Settings</h2>
             <div id="poststuff">
@@ -577,8 +577,8 @@
           <table><tr><td><a href="https://twitter.com/FreeAdsPost" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @FreeAdsPost</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td>
                 <td>
-                <a target="_blank" title="Donate" href="http://my-php-scripts.net/donate-wordpress_image_thumbnail.php">
-                <img id="help us for free plugin" height="30" width="90" src="http://www.postfreeadvertising.com/images/paypaldonate.jpg" border="0" alt="help us for free plugin" title="help us for free plugin">
+                <a target="_blank" title="Donate" href="http://www.i13websolution.com/donate-wordpress_image_thumbnail.php">
+                <img id="help us for free plugin" height="30" width="90" src="http://www.i13websolution.com/images/paypaldonate.jpg" border="0" alt="help us for free plugin" title="help us for free plugin">
                 </a>
                 </td>
                 </tr>
@@ -606,7 +606,7 @@
 
      
         <div id="post-body-content" >  
-           <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-vertical-image-slider-pro.html">UPGRADE TO PRO VERSION</a></h3></span>
+           <span><h3 style="color: blue;"><a target="_blank" href="http://www.i13websolution.com/wordpress-pro-plugins/wordpress-vertical-image-slider-pro-plugin.html">UPGRADE TO PRO VERSION</a></h3></span>
         
            <div class="icon32 icon32-posts-post" id="icon-edit"><br></div>
             <h2>Images <a class="button add-new-h2" href="admin.php?page=vertical_thumbnail_slider_image_management&action=addedit">Add New</a> </h2>
@@ -910,7 +910,7 @@
      <div id="poststuff" >  
        <div id="post-body" class="metabox-holder columns-2"> 
        <div id="post-body-content">
-           <span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-vertical-image-slider-pro.html">UPGRADE TO PRO VERSION</a></h3></span>
+           <span><h3 style="color: blue;"><a target="_blank" href="http://www.i13websolution.com/wordpress-pro-plugins/wordpress-vertical-image-slider-pro-plugin.html">UPGRADE TO PRO VERSION</a></h3></span>
            <div class="wrap">
                <?php if(isset($_GET['id']) and $_GET['id']>0)
                    { 

@@ -1,9 +1,9 @@
 === wordpress vertical image slider plugin ===
 Contributors:nik00726
-Donate link:http://my-php-scripts.net/donate-wordpress_image_thumbnail.php
+Donate link:http://www.i13websolution.com/donate-wordpress_image_thumbnail.php
 Tags:wordpress vertical image slider,wordpress vertical slider,wordpress vertical thumbnail scroller,wp vertical image slider,wordpress vertical vertical image sliders,wordpress slider with thumbnails,wordpress banner slider,wordpress vertical image slider with images,
 Requires at least:3.0
-Tested up to:3.8
+Tested up to:3.8.1
 Version:1.0
 Stable tag:trunk
 License:GPLv2 or later
@@ -12,9 +12,9 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 This is beautiful vertical image slider for wordPress blogs and sites.Admin can manages any number of images into the vertical slider.
 Admin can add,edit and delete slider images.Before add slider to wordPress blog admin can preview a slider.Admin can set height,width of slider images.Admin can also set speed,Number Of visible images into slider,Circular slider.Admin can also set if want to slide images with up and down arrow or by automatic slider.
 
-**Find WordPress Vertical Image Slider Pro Plugin(Unlimited Slider+Much more) at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-vertical-image-slider-pro.html)**
+**Find WordPress Vertical Image Slider Pro Plugin(Unlimited Slider+Much more) at [Vertical Image Slider Pro](http://www.i13websolution.com/wordpress-pro-plugins/wordpress-vertical-image-slider-pro-plugin.html)**
 
-**Live demo at [WordPress Vertical Image Slider](http://my-php-scripts.net/wpdemo/vertical-image-slider-pro-demo/)**
+**Live demo at [WordPress Vertical Image Slider](http://www.i13websolution.com/wpdemo/vertical-image-slider-pro-demo/)**
 
 **Please rate this plugin if you find it useful**
 
@@ -65,7 +65,7 @@ to theme or pages/posts.
 
 
 
-[Get Support](http://www.my-php-scripts.net/index.php/Default-form.html)
+[Get Support](http://www.i13websolution.com/contacts)
 
 
 == Installation ==
