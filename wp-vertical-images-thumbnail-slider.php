@@ -1,15 +1,15 @@
 <?php
     /* 
     Plugin Name: WordPress vertical Thumbnail Slider
-    Plugin URI:http://www.i13websolution.com
-    Author URI:http://www.i13websolution.com
+    Plugin URI:http://www.i13websolution.com/wordpress-pro-plugins/wordpress-vertical-image-slider-pro-plugin.html
+    Author URI:http://www.i13websolution.com/wordpress-pro-plugins/wordpress-vertical-image-slider-pro-plugin.html
     Description: This is beautiful thumbnail image slider plugin for WordPress.Add any number of images from admin panel.
     Author:I Thirteen Web Solution 
     Version:1.0
     */
 
     add_action('admin_menu', 'add_vertical_thumbnail_slider_admin_menu');
-    add_action( 'admin_init', 'my_vertical_thumbnailSlider_admin_init' );
+   // add_action( 'admin_init', 'my_vertical_thumbnailSlider_admin_init' );
     register_activation_hook(__FILE__,'install_vertical_thumbnailSlider');
     add_action('wp_enqueue_scripts', 'vertical_thumbnail_slider_load_styles_and_js');
     add_shortcode('print_vertical_thumbnail_slider', 'print_vertical_thumbnail_slider_func' );
@@ -55,12 +55,14 @@
 
     function add_vertical_thumbnail_slider_admin_menu(){
 
-        add_menu_page( __( 'Vertical Thumbnail Slider'), __( 'Vertical Thumbnail Slider' ), 'administrator', 'vertical_thumbnail_slider', 'vertical_thumbnail_slider_admin_options' );
-        add_submenu_page( 'vertical_thumbnail_slider', __( 'Slider Setting'), __( 'Slider Setting' ),'administrator', 'vertical_thumbnail_slider', 'vertical_thumbnail_slider_admin_options' );
-        add_submenu_page( 'vertical_thumbnail_slider', __( 'Manage Images'), __( 'Manage Images'),'administrator', 'vertical_thumbnail_slider_image_management', 'vertical_thumbnail_image_management' );
-        add_submenu_page( 'vertical_thumbnail_slider', __( 'Preview Slider'), __( 'Preview Slider'),'administrator', 'vertical_thumbnail_slider_preview', 'verticalpreviewSliderAdmin' );
+        $hook_suffix_v_l=add_menu_page( __( 'Vertical Thumbnail Slider'), __( 'Vertical Thumbnail Slider' ), 'administrator', 'vertical_thumbnail_slider', 'vertical_thumbnail_slider_admin_options' );
+        $hook_suffix_v_l=add_submenu_page( 'vertical_thumbnail_slider', __( 'Slider Setting'), __( 'Slider Setting' ),'administrator', 'vertical_thumbnail_slider', 'vertical_thumbnail_slider_admin_options' );
+        $hook_suffix_v_l_1=add_submenu_page( 'vertical_thumbnail_slider', __( 'Manage Images'), __( 'Manage Images'),'administrator', 'vertical_thumbnail_slider_image_management', 'vertical_thumbnail_image_management' );
+        $hook_suffix_v_l_2=add_submenu_page( 'vertical_thumbnail_slider', __( 'Preview Slider'), __( 'Preview Slider'),'administrator', 'vertical_thumbnail_slider_preview', 'verticalpreviewSliderAdmin' );
 
-
+        add_action( 'load-' . $hook_suffix_v_l , 'my_vertical_thumbnailSlider_admin_init' );
+        add_action( 'load-' . $hook_suffix_v_l_1 , 'my_vertical_thumbnailSlider_admin_init' );
+        add_action( 'load-' . $hook_suffix_v_l_2 , 'my_vertical_thumbnailSlider_admin_init' );
     }
 
     function my_vertical_thumbnailSlider_admin_init(){
@@ -785,6 +787,7 @@
                             update_option('vertical_thumbnail_slider_messages', $vertical_thumbnail_slider_messages);
 
                             echo "<script type='text/javascript'> location.href='$location';</script>";
+                            exit;
 
                         }
                         else{
@@ -826,6 +829,7 @@
 
 
                     echo "<script type='text/javascript'> location.href='$location';</script>";
+                    exit;
                 }
                 else{
 
@@ -853,6 +857,7 @@
                         update_option('vertical_thumbnail_slider_messages', $vertical_thumbnail_slider_messages);
 
                         echo "<script type='text/javascript'> location.href='$location';</script>";
+                        exit;
 
                     }
                     else{
@@ -888,7 +893,8 @@
                         }  
 
                     }     
-                    echo "<script type='text/javascript'> location.href='$location';</script>";          
+                    echo "<script type='text/javascript'> location.href='$location';</script>";
+                    exit;          
 
                 } 
 
@@ -1076,14 +1082,12 @@
                             </div>
                         </div></div>
                     <div class="postbox"> 
-                        <h3 class="hndle"><span></span>Worried About SEO ?</h3> 
-                        <div class="inside">
-                            <center><a target="_blank" href="http://www.shareasale.com/r.cfm?b=378609&u=675922&m=6133&urllink=&afftrack="><img src="http://www.shareasale.com/image/6133/iNeedHits_250x250_target.gif" alt="Drive 1,000's of Targeted Visitors to YOUR site with iNeedHits.com! Shop Now! " border="0"></a></center>
-
-                            <div style="margin:10px 5px">
-
-                            </div>
-                        </div></div>
+              <h3 class="hndle"><span></span>Recommended WordPress Hostings</h3> 
+              <div class="inside">
+                  <center><a href="http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=nik00726-hs-wp"><img src="http://tracking.hostgator.com/img/WordPress_Hosting/300x250-animated.gif" width="250" height="250" border="0"></a></center>
+                  <div style="margin:10px 5px">
+                  </div>
+              </div></div>
 
 
 
@@ -1110,7 +1114,7 @@
                     $image_name=stripslashes($myrow->image_name);
                     $wpcurrentdir=dirname(__FILE__);
                     $wpcurrentdir=str_replace("\\","/",$wpcurrentdir);
-                    $imagename=$_FILES["image_name"]["name"];
+                    //$imagename=$_FILES["image_name"]["name"];
                     $imagetoDel=$wpcurrentdir.'/imagestoscroll/'.$image_name;
                     @unlink($imagetoDel);
 
@@ -1134,6 +1138,7 @@
             }  
 
             echo "<script type='text/javascript'> location.href='$location';</script>";
+            exit;
 
         }  
         else if(strtolower($action)==strtolower('deleteselected')){
@@ -1158,7 +1163,7 @@
                                 $image_name=stripslashes($myrow->image_name);
                                 $wpcurrentdir=dirname(__FILE__);
                                 $wpcurrentdir=str_replace("\\","/",$wpcurrentdir);
-                                $imagename=$_FILES["image_name"]["name"];
+                                //$imagename=$_FILES["image_name"]["name"];
                                 $imagetoDel=$wpcurrentdir.'/imagestoscroll/'.$image_name;
                                 @unlink($imagetoDel);
                                 $query = "delete from  ".$wpdb->prefix."vertical_thumbnail_slider where id=$img";
@@ -1182,18 +1187,21 @@
                     }  
 
                     echo "<script type='text/javascript'> location.href='$location';</script>";
+                    exit;
 
 
                 }
                 else{
 
-                    echo "<script type='text/javascript'> location.href='$location';</script>";   
+                    echo "<script type='text/javascript'> location.href='$location';</script>"; 
+                    exit;  
                 }
 
             }
             else{
 
-                echo "<script type='text/javascript'> location.href='$location';</script>";      
+                echo "<script type='text/javascript'> location.href='$location';</script>";   
+                exit;   
             }
 
         }      
