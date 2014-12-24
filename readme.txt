@@ -3,14 +3,14 @@ Contributors:nik00726
 Donate link:http://www.i13websolution.com/donate-wordpress_image_thumbnail.php
 Tags:wordpress vertical image slider,wordpress vertical slider,wordpress vertical thumbnail scroller,wp vertical image slider,wordpress vertical vertical image sliders,wordpress slider with thumbnails,wordpress banner slider,wordpress vertical image slider with images,
 Requires at least:3.0
-Tested up to:4.0
+Tested up to:4.1
 Version:1.0
 Stable tag:trunk
 License:GPLv2 or later
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 
-**Now Support Upto WordPress 4.0**
+**Now Support Upto WordPress 4.1**
 
 This is beautiful vertical image slider for wordPress blogs and sites.Admin can manages any number of images into the vertical slider.
 Admin can add,edit and delete slider images.Before add slider to wordPress blog admin can preview a slider.Admin can set height,width of slider images.Admin can also set speed,Number Of visible images into slider,Circular slider.Admin can also set if want to slide images with up and down arrow or by automatic slider.
