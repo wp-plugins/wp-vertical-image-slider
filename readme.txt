@@ -17,7 +17,7 @@ Admin can add,edit and delete slider images.Before add slider to wordPress blog 
 
 **Find WordPress Vertical Image Slider Pro Plugin(Unlimited Slider+Much more) at [Vertical Image Slider Pro](http://www.i13websolution.com/wordpress-pro-plugins/wordpress-vertical-image-slider-pro-plugin.html)**
 
-**Live demo at [WordPress Vertical Image Slider](http://www.i13websolution.com/wpdemo/wordpress-vertical-image-slider/)**
+**Live demo at [WordPress Vertical Image Slider](http://blog.i13websolution.com/live-preview-vertical-thumbnail-slider-pro/)**
 
 **Please rate this plugin if you find it useful**
 
